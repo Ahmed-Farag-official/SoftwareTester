@@ -3,139 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ahmed Farag | Software Tester</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #282c34;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #555;
-            font-weight: 600;
-        }
-        nav a:hover {
-            color: #007bff;
-        }
-        section {
-            padding: 40px;
-            margin: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        section h2 {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-        .skills, .projects {
-            display: flex;
-            justify-content: space-between;
-        }
-        .skills div, .projects div {
-            width: 30%;
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            border-radius: 5px;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #282c34;
-            color: white;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-
-<header>
-    <h1>Ahmed Farag | Software Tester</h1>
-    <p>Specialized in Manual and Automation Testing, API Testing, and Agile Methodologies</p>
-</header>
-
-<nav>
-    <a href="#about">About Me</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate software tester with expertise in manual and automation testing. Currently, I am working on testing web and mobile applications using various tools like Selenium, Postman, and Jira. My goal is to ensure high-quality software through rigorous testing processes.
-    </p>
-</section>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-        <div>
-            <h3>Manual Testing</h3>
-            <p>Proficient in test case writing, defect tracking, and end-to-end testing for web and mobile applications.</p>
+    <header>
+        <div class="navbar">
+            <h1>Ahmed Farag | Software Tester</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <h3>Automation Testing</h3>
-            <p>Expert in Selenium WebDriver with TestNG, developing test scripts, and automating regression test cases.</p>
-        </div>
-        <div>
-            <h3>API Testing</h3>
-            <p>Skilled in testing REST APIs using Postman, validating endpoints, and creating automation suites.</p>
-        </div>
-    </div>
-</section>
+    </header>
 
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-        <div>
-            <h3>E-commerce Web Testing</h3>
-            <p>Performed end-to-end testing for an online shopping platform, including payment gateways and mobile compatibility.</p>
-        </div>
-        <div>
-            <h3>API Testing for Financial App</h3>
-            <p>Tested RESTful APIs for a fintech app, ensuring data security and accurate financial calculations.</p>
-        </div>
-        <div>
-            <h3>Mobile App Testing</h3>
-            <p>Conducted manual and automated tests for a mobile health app, improving performance and usability.</p>
-        </div>
-    </div>
-</section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a skilled software tester specializing in manual and automation testing, API testing, and agile methodologies...</p>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: ahmedfarag@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ahmedfarag" target="_blank">linkedin.com/in/ahmedfarag</a></p>
-</section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Manual Testing</h3>
+                <p>Test case writing, defect tracking, etc.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Automation Testing</h3>
+                <p>Selenium WebDriver, TestNG, etc.</p>
+            </div>
+            <div class="skill-card">
+                <h3>API Testing</h3>
+                <p>Postman, REST API testing, etc.</p>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>&copy; 2024 Ahmed Farag - All Rights Reserved</p>
-</footer>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>E-commerce Web Testing</h3>
+                <p>End-to-end testing for an online platform...</p>
+            </div>
+            <div class="project-card">
+                <h3>API Testing for Fintech</h3>
+                <p>Tested REST APIs for a financial app...</p>
+            </div>
+            <div class="project-card">
+                <h3>Mobile App Testing</h3>
+                <p>Manual and automated testing for a health app...</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: ahmedfarag@example.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/ahmedfarag" target="_blank">linkedin.com/in/ahmedfarag</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ahmed Farag | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
