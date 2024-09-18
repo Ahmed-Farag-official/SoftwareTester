@@ -1,100 +1,66 @@
-/* General Styles */
+/* General Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #f4f4f9;
     color: #333;
 }
 
 header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px 0;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
 }
 
-.navbar ul {
-    list-style-type: none;
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.navbar ul li {
+nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
-.navbar ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
-.navbar ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styles */
 section {
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #007bff;
-}
-
-/* Skills Section */
-.skills-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.skill-card {
-    width: 30%;
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-.skill-card:hover {
-    transform: scale(1.05);
-}
-
-/* Projects Section */
-.projects-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.project-card {
-    width: 30%;
+    padding: 2rem;
     background-color: white;
-    border: 1px solid #ddd;
+    margin: 20px;
     border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
 }
 
-.project-card:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+section h2 {
+    color: #4CAF50;
 }
 
-/* Footer */
+article {
+    margin-bottom: 2rem;
+}
+
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #007bff;
+    padding: 1rem;
+    background-color: #333;
     color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
